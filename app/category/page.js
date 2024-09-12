@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import Link from "next/link";
 
 export default function Home() {
+  console.log("API Base URL:", process.env.NEXT_PUBLIC_API_BASE);
   const [category, setCategory] = useState([]);
   const { register, handleSubmit } = useForm();
   async function fetchCategory() {
