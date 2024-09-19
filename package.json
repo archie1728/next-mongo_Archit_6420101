@@ -12,15 +12,15 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.0.2",
-    "@mui/material": "^6.1.0",
-    "@mui/x-data-grid": "^7.17.0",
-    "add": "^2.0.6",
+    "@mui/material": "^6.0.2",
+    "@mui/styled-engine-sc": "^6.0.2",
+    "@mui/x-data-grid": "^7.16.0",
     "mongoose": "^8.6.0",
     "next": "14.2.7",
-    "pnpm": "^9.9.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.53.0"
+    "react-hook-form": "^7.53.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import ResponsiveAppBar from "../components/ResponsiveAppBar";
 
 export default function Home() {
-  const APIBASE = process.env.NEXT_PUBLIC_API_URL;
+  const APIBASE = process.env.NEXT_PUBLIC_API_BASE;
   const { register, handleSubmit } = useForm();
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState([]);
